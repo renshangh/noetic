@@ -1,7 +1,14 @@
 **Title:** Evaluating Invasive Biometric Options for Noetic Streaming-Based Behavioral Systems
 
 **Overview:**
-This document outlines the most invasive biometric and behavioral metrics relevant to real-time fault detection in a Noetic AI environment. Also, it reasoned the impracticality of fingerprint biometrics in streaming-based systems and recommends alternatives aligned with continuous behavioral monitoring [1][2]. 
+
+This document outlines the most invasive biometric and behavioral metrics relevant to real-time fault detection in a Noetic AI environment. Also, it reasoned the impracticality of fingerprint biometrics in streaming-based systems and recommends alternatives aligned with continuous behavioral monitoring [1][2].
+
+---
+Here is a diagram outlines the data flow in the system.
+**NoeticAI Data Flow Diagram**
+
+![NoeticAI Data Flow](NoeticAI_DataFlow.svg)
 
 ---
 
