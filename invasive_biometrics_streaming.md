@@ -2,7 +2,7 @@
 
 **Overview:**
 
-This document outlines the most invasive biometric and behavioral metrics relevant to real-time fault detection in a Noetic AI environment. Also, it reasoned the impracticality of fingerprint biometrics in streaming-based systems and recommends alternatives aligned with continuous behavioral monitoring [1][2].
+This document outlines the most invasive biometric and behavioral metrics relevant to real-time fault detection in a Noetic AI environment. Also, it reasoned the impracticality of fingerprint biometrics in streaming-based systems and recommends alternatives aligned with continuous behavioral monitoring [1][2]. 
 
 ---
 Here is a diagram outlines the data flow in the system.
@@ -14,6 +14,12 @@ Here is a diagram outlines the data flow in the system.
 
 **1. Introduction**
 Noetic AI systems rely on real-time data to understand, classify, and detect anomalies in user behavior. As such, they prioritize behavioral signals that can be continuously captured and evaluated with minimal latency. While biometric signals offer powerful identification capabilities, some are inherently more invasive and less suited for live-streaming models.
+
+---
+
+**Considerations for Exceptional Users**
+
+It is important to recognize that biometric and behavioral systems must account for exceptional users, including individuals with physical disabilities, hearing impairments, or other accessibility needs. For example, users with limited hand mobility may not produce typical keystroke or mouse movement patterns, and those with hearing difficulties may not be suitable for voice-based biometrics. Noetic systems should incorporate adaptive mechanisms and alternative modalities to ensure inclusivity, accuracy, and fairness in real-time monitoring and fault detection. This may include customizable input options, multimodal fusion, and continuous evaluation of system accessibility [21][22].
 
 ---
 
